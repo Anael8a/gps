@@ -14,8 +14,14 @@ import { AllendeComponent } from './pages/allende/allende.component';
 import { Progreso4DestComponent } from './pages/progreso4-dest/progreso4-dest.component';
 import { LlanitosDestComponent } from './pages/llanitos-dest/llanitos-dest.component';
 import { AllendeDestComponent } from './pages/allende-dest/allende-dest.component';
-import { AddRutaComponent } from './pages/add-ruta/add-ruta.component'
+import { AddRutaComponent } from './pages/add-ruta/add-ruta.component';
 import { PrincipalComponent } from './pages/principal/principal.component';
+import { HorarioComponent } from './pages/horario/horario.component';
+import { HorarioAllendeComponent } from './pages/horario-allende/horario-allende.component';
+import { HorarioInsurgentesComponent } from './pages/horario-insurgentes/horario-insurgentes.component';
+import { HorarioLlanitosComponent } from './pages/horario-llanitos/horario-llanitos.component';
+
+
 
 const routes: Routes = [
   { path: 'usuario/:id', component: UsuarioComponent },
@@ -31,7 +37,12 @@ const routes: Routes = [
   { path: 'allende/:id', component: AllendeComponent},
   { path: 'allendeDest/:id', component: AllendeDestComponent},
   { path: 'add-ruta/:id', component: AddRutaComponent},
+  { path: 'horario/:id', component: HorarioComponent},
+  { path: 'HorarioAllendeComponent/:id', component: HorarioAllendeComponent},
+  { path: 'HorarioInsurgentesComponent/:id', component: HorarioInsurgentesComponent},
+  { path: 'HorarioLlanitosComponent/:id', component: HorarioLlanitosComponent},
   { path: '**', pathMatch: 'full', redirectTo: 'principal' }
+
 
 ];
 @NgModule({  

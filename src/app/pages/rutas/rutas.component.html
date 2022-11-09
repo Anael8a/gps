@@ -2,7 +2,7 @@
 <nav class="navbar" style="background-color: #e3f2fd; text-align: left;">
     <!-- Navbar content -->
     <div class="container-fluid" >
-      <img src="SegundoLogo.png" alt=" Logotipo">
+      <img src="../../../favicon.ico" alt="">
         <a class="navbar-brand" href="principal.component.html">ONDE!</a>
         <a class="nav-link" [routerLink]="['/cuenta/',idUser]">Mi cuenta</a>
         <a class="nav-link active">Rutas</a>  
@@ -17,14 +17,13 @@
   
   </nav>
     
-  
 
 <div class ="p-3 mb-2 text-white" style="text-align: center;">
     <h1>Listado de rutas urbanas</h1>
     <hr class="text-white">
 </div>
 
-<div class="row row-cols-1 row-cols-md-2 g-4">
+<div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col text">
         <button [routerLink]="['/add-ruta/',idUser]"
                 class="btn btn-primary">
@@ -32,6 +31,9 @@
             Agregar rutas
         </button>
     </div>
+
+    <div></div>
+
     <div class="col text-end">
         <button [routerLink]="['/principal/',idUser]"
                 class="btn btn-primary">
@@ -56,7 +58,7 @@
       <tr class="table-active ">
         <th scope="row">1</th>
         <td >Progreso 4</td>
-        <td >Camión</td>
+        <td >Camion</td>
         <td >
             <button [routerLink]="['/progreso4/',idUser]"
                 class="btn btn-link">

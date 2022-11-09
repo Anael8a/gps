@@ -19,6 +19,11 @@ import { Progreso4Component } from './pages/progreso4/progreso4.component';
 import { Progreso4DestComponent } from './pages/progreso4-dest/progreso4-dest.component';
 import { AddRutaComponent } from './pages/add-ruta/add-ruta.component';
 import { PrincipalComponent } from './pages/principal/principal.component';
+import { HorarioComponent } from './pages/horario/horario.component';
+import { HorarioAllendeComponent } from './pages/horario-allende/horario-allende.component';
+import { HorarioInsurgentesComponent } from './pages/horario-insurgentes/horario-insurgentes.component';
+import { HorarioLlanitosComponent } from './pages/horario-llanitos/horario-llanitos.component';
+
 
 
 @NgModule({
@@ -36,7 +41,12 @@ import { PrincipalComponent } from './pages/principal/principal.component';
     Progreso4Component,
     Progreso4DestComponent,
     AddRutaComponent,
-    PrincipalComponent
+    PrincipalComponent,
+    HorarioComponent,
+    HorarioAllendeComponent,
+    HorarioInsurgentesComponent,
+    HorarioLlanitosComponent,
+
   ],
   imports: [
     BrowserModule,

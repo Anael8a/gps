@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 import { Observable } from 'rxjs';
 import { AllendeModel } from 'src/app/models/allende.model';
 import { AllendeService } from 'src/app/services/allende.service';
-import Swal from 'sweetalert2';
+import Swal from 'sweetalert2'; 
 
 @Component({
   selector: 'app-allende-dest',
